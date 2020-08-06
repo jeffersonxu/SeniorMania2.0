@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import app from "./base"
 
-const Nav = () => {
+const Nav = (props) => {
     return(
         <div>
         <h1 className="header">Senior Mania</h1>
@@ -16,7 +16,12 @@ const Nav = () => {
                     <Link className="nav-link" to="/challenges">Challenges</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/team">Team Info</Link>
+                    <Link className="nav-link" to={{
+                        pathname: "/team",
+                        state: {
+                            data: props.data
+                        }
+                    }}>Team Info</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" to="/leaderboard">Leaderboard</Link>

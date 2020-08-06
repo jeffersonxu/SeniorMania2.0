@@ -1,16 +1,19 @@
 import React from "react"
 import Nav from "./Nav"
+import app from "./base"
 
-function Team(){
+function Team(props){
+    const data = props.location.state.data[app.auth().currentUser.uid]
+
     return(
         <div className="main">
             <Nav/>
             <h3 id="teamHeader">Team Information</h3>
-            <p>Team Name: <span className="bold" id="team"></span></p>
-            <p>Points: <span className="bold" id="point"></span></p>
-            <p>Email: <span className="bold" id="teamEmail"></span></p>
-            <p>Members: <span className="bold" id="members"></span></p>
-            <p>Group Number: <span className="bold" id="groupNumber"></span></p>
+            <p>Team Name: <span> {data.name}</span></p>
+            <p>Points: <span> {data.points} </span></p>
+            <p>Email: <span> {data.email} </span></p>
+            <p>Members: <span> {data.members.join(", ")} </span></p>
+            <p>Group Number: <span>{data.members.length}</span></p>
 
             <button id="resetPass" type="button" className="btn btn-warning">Reset Password</button>
 

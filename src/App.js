@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from "./components/Home"
 import Login from "./components/Login"
 import Team from "./components/Team"
-import Nav from "./components/Nav"
 import { AuthProvider } from "./components/Auth"
 import PrivateRoute from "./components/PrivateRoute"
 

@@ -1,27 +1,32 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import { Route, Switch } from "react-router-dom"
-import app from "./base"
+import firebase from "./base"
 import Rules from "./Rules"
 import Team from "./Team"
 import Nav from "./Nav"
 
 class Home extends React.Component {
+    constructor(){
+        super()
+        this.state = {}
+    }
+
     componentDidMount(){
-        // let ref = app.database().ref('/')
-        // ref.on('value', snapshot => {
-        //     const state = snapshot.val()
-        //     console.log(state)
-        // })
+        const userId = firebase.auth().currentUser.uid
+        firebase.database().ref('/').once('value', snapshot => {
+            this.setState({data: snapshot.val().users})
+        })
     }
 
     render(){
-        return (
+         return(
             <div className="main">
-                <Nav />
+                <Nav data={this.state.data}/>
                 <Rules />
             </div>
         )
     }
 }
+
 
 export default Home

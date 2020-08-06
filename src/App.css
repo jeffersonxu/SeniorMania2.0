@@ -1,8 +1,3 @@
-.bold,
-.red,
-.video {
-    font-weight: 700;
-}
 html {
     position: relative;
     min-height: 100%;
@@ -15,6 +10,11 @@ body {
 }
 .main {
     padding: 2.5em 0;
+}
+.main p span,
+.red,
+.video {
+    font-weight: 700;
 }
 .hide {
     display: none;
