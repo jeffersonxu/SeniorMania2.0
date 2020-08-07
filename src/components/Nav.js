@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import app from "./base"
 
 const Nav = (props) => {
+    console.log(props)
     return(
         <div>
         <h1 className="header">Senior Mania</h1>
@@ -24,7 +25,12 @@ const Nav = (props) => {
                     }}>Team Info</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
+                    <Link className="nav-link" to={{
+                        pathname: "/leaderboard",
+                        state: {
+                            data: props.data
+                        }
+                    }}>Leaderboard</Link>
                 </li>
             </ul>
         </nav>

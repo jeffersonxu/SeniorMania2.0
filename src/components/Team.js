@@ -7,7 +7,7 @@ function Team(props){
 
     return(
         <div className="main">
-            <Nav/>
+            <Nav data={props.location.state.data}/>
             <h3 id="teamHeader">Team Information</h3>
             <p>Team Name: <span> {data.name}</span></p>
             <p>Points: <span> {data.points} </span></p>

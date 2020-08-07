@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from "./components/Home"
 import Login from "./components/Login"
 import Team from "./components/Team"
+import Leaderboard from "./components/Leaderboard"
+
 import { AuthProvider } from "./components/Auth"
 import PrivateRoute from "./components/PrivateRoute"
 
@@ -19,6 +21,7 @@ const App = () => {
         <div className="container">
           <PrivateRoute exact path="/" component={Home} />
           <PrivateRoute exact path="/team" component={Team}/>
+          <PrivateRoute exact path="/leaderboard" component={Leaderboard}/>
           <Route exact path="/login" component={Login} />
         </div>
       </Router>
