@@ -1,0 +1,49 @@
+{
+        "group": {
+        },
+        "individual":{
+
+        },
+        "monthly":{
+            "October": {
+                "subtext": "Tourists",
+                "text": "Group members come to school dressed like tourists (camera, glasses, hats, etc)"
+            },
+            "November": {
+                "subtext": "Group",
+                "text": "Every member MUST be wearing the same shirt/outfit"
+            },
+            "December": {
+                "subtext": "Formal",
+                "text": "~But in reverse!~\nGirls wear suits and guys wear dresses"
+            },
+            "January": {
+                "subtext": "Beach",
+                "text": "Appropriate bathing suits/ beachwear\nGet a picture of squad in the snow with bathing suits on = 2x points",
+                "required": "Appropriate bathing suits/ beachwear",
+                "double": ["Best Selves™", "Tatusiowie", "Harverd Rejects", "Sen19rs in Predicaments"]
+            },
+            "February": {
+                "subtext": "Onesies and Piñatas",
+                "text": "Wear Onesies to school ~don’t forget the piñata~\nvideo required",
+                "required": "video required"
+            },
+            "March": {
+                "subtext": "All Black",
+                "text": "Wear all black: everything black (no other colors, neck to feet black)"
+            },
+            "April": {
+                "subtext": "Happy Holidays",
+                "text": "Make a freshman’s day by dressing up in santa hats and giving a random freshman a present\nvideo required",
+                "required": "video required"
+            },
+            "May": {
+                "subtext": "Halloween in May",
+                "text": "Costumes, decorations, trick or treating (the whole deal)"
+            },
+            "June": {
+                "subtext": "HSM",
+                "text": "Videotape squad singing a High School Musical song in the hall. Get other students involved = 2x points"
+            }
+        }
+}

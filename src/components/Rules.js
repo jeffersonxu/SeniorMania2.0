@@ -5,7 +5,7 @@ const Rules = () => {
     return(
         <div id="main">
             <h3>Rules</h3>
-            <p>Team must have at least <span className="red">5 members</span> but <span className="red">no more than 12 </span><span className="video">(no exceptions)</span></p>
+            <p>Team must have at least <span className="red">5 members</span> but <span className="red">no more than 12 </span><span className="required">(no exceptions)</span></p>
 
             <h3>Team Challenges</h3>
             <p>Everyone must be present to get points under these guidelines</p>

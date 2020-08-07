@@ -13,7 +13,7 @@ body {
 }
 .main p span,
 .red,
-.video {
+.required {
     font-weight: 700;
 }
 .hide {
@@ -22,7 +22,7 @@ body {
 .red {
     color: #dc3545;
 }
-.video {
+.required {
     color: #17a2b8;
 }
 .subtext {
