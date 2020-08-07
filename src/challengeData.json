@@ -1,10 +1,77 @@
 {
-        "group": {
-        },
-        "individual":{
+    "group": {
 
+    },
+    "individual":{
+        "saranWrap": {
+            "text": "Saran Wrap your entire car",
+            "points": 150
         },
-        "monthly":{
+        "egg": {
+            "text": "Crack an egg on your head",
+            "points": 50
+        },
+        "kissStatue": {
+            "text": "Kiss a statue for minimum 10 seconds",
+            "points": 50,
+            "required": "video required"
+        },
+        "strangerHand": {
+            "text": "Get a stranger to hold your hand",
+            "points": 25
+        },
+        "strangerHug": {
+            "text": "Get a stranger to hug you",
+            "points": 50
+        },
+        "strangerFive": {
+            "text": "Get a stranger to high five you back",
+            "points": 10
+        },
+        "strangerPiggyback": {
+            "text": "Get a stranger to give you a piggyback ride for at least 10 seconds",
+            "points": 100,
+            "required": "video required"
+        },
+        "shaveHead": {
+            "text": "Shave head (M) / Cut Hair 4 in (F)",
+            "points": 500
+        },
+        "shaveEyebrows": {
+            "text": "Shave your eyebrows",
+            "points": 1000
+        },
+        "unknownFamily": {
+            "text": "Sit with unknown family at restaurant",
+            "points": 75
+        },
+        "fastFood": {
+            "text": "Go to a fast food drive thru and pay in pennies",
+            "points": 100
+        },
+        "iceCream": {
+            "text": "Order an ice cream, grab it by the ice cream part not the cone ",
+            "points": 100,
+            "required": "video required"
+        },
+        "gas": {
+            "text": "Get $3 worth of gas",
+            "points": 75
+        },
+        "peeps": {
+            "text": "Eat 12 peeps in 1 minute",
+            "points": 100
+        },
+        "iceBucket": {
+            "text": "Ice bucket challenge where temperature is under 20ºF",
+            "points": 100
+        },
+        "tip": {
+            "text": "Tip 100%, $15 minimum",
+            "points": 100
+        }
+    },
+    "monthly":{
             "October": {
                 "subtext": "Tourists",
                 "text": "Group members come to school dressed like tourists (camera, glasses, hats, etc)"
@@ -45,5 +112,6 @@
                 "subtext": "HSM",
                 "text": "Videotape squad singing a High School Musical song in the hall. Get other students involved = 2x points"
             }
-        }
+
+    }
 }

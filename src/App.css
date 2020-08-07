@@ -85,12 +85,6 @@ body {
     .list-group-item {
         padding: 2em;
     }
-    #v-pills-challenges,
-    #v-pills-leaderboard,
-    #v-pills-rules,
-    #v-pills-team {
-        padding-bottom: 12em;
-    }
     #v-pills-leaderboard h4 {
         font-size: 4em;
     }
