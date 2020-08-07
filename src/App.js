@@ -2,9 +2,10 @@ import React from "react"
 import "./App.css"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from "./components/Home"
-import Login from "./components/Login"
+import Challenges from "./components/Challenges"
 import Team from "./components/Team"
 import Leaderboard from "./components/Leaderboard"
+import Login from "./components/Login"
 
 import { AuthProvider } from "./components/Auth"
 import PrivateRoute from "./components/PrivateRoute"
@@ -20,6 +21,7 @@ const App = () => {
       <Router>
         <div className="container">
           <PrivateRoute exact path="/" component={Home} />
+          <PrivateRoute exact path="/challenges" component={Challenges}/>
           <PrivateRoute exact path="/team" component={Team}/>
           <PrivateRoute exact path="/leaderboard" component={Leaderboard}/>
           <Route exact path="/login" component={Login} />

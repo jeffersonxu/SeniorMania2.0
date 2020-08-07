@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react"
-import { Route, Switch } from "react-router-dom"
+import React from "react"
 import firebase from "./base"
 import Rules from "./Rules"
-import Team from "./Team"
 import Nav from "./Nav"
 
 class Home extends React.Component {
@@ -12,7 +10,6 @@ class Home extends React.Component {
     }
 
     componentDidMount(){
-        const userId = firebase.auth().currentUser.uid
         firebase.database().ref('/').once('value', snapshot => {
             this.setState({data: snapshot.val().users})
         })
@@ -27,6 +24,5 @@ class Home extends React.Component {
         )
     }
 }
-
 
 export default Home

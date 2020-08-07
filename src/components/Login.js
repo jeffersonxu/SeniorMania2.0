@@ -6,7 +6,7 @@ import { AuthContext } from "./Auth"
 const Login = ({ history }) => {
   const handleLogin = useCallback(
     async event => {
-      event.preventDefault();
+      event.preventDefault()
       const { email, password } = event.target.elements
       try {
         await app
@@ -48,7 +48,7 @@ const Login = ({ history }) => {
             <button id="btnLogin" type="submit" className="btn btn-primary">Login</button>
         </form>
     </div>
-  );
-};
+  )
+}
 
 export default withRouter(Login)

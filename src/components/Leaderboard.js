@@ -18,7 +18,7 @@ function Leaderboard(props){
             <div className="d-flex w-100 justify-content-between">
                 <h4 className="mb-1">{`${index + 1}. ${team.name} : ${team.points}`}</h4>
             </div>
-            <p className="mb-1">{team.members}</p>
+            <p className="mb-1">{ team.members }</p>
         </div>
     )
 
