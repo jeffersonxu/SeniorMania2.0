@@ -16,7 +16,7 @@ export const AuthProvider = ({ children }) => {
 
   if(pending){
     return (
-      <div className="text-center">
+      <div className="d-flex justify-content-center">
         <div className="spinner-border" role="status">
           <span className="sr-only">Loading...</span>
         </div>
