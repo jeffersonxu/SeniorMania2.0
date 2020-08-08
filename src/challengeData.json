@@ -1,6 +1,98 @@
 {
     "group": {
-
+        "btSports": {
+            "text": "Go to a BT sports game"
+        },
+        "snowco": {
+            "text": "Go to SNOWCO in sweats"
+        },
+        "townSigns": {
+            "text": "Take a picture with a sign from every town in Bergen County"
+        },
+        "mendelsohn": {
+            "text": "Take a picture with Mrs. Mendelsohn"
+        },
+        "bath": {
+            "text": "Take a picture with Dr. Bath"
+        },
+        "davis": {
+            "text": "Take a picture with Mr. Davis"
+        },
+        "pinke": {
+            "text": "Take a picture with Mrs. Pinke"
+        },
+        "lynch": {
+            "text": "Take a picture with Mr. Lynch"
+        },
+        "polarBearPlunge": {
+            "text": "Participate in an organized polar bear plunge challenge",
+            "required": "video required"
+        },
+        "bathtub": {
+            "text": "Take a picture of the team in a bathtub"
+        },
+        "faceMasks": {
+            "text": "Face Masks with the team"
+        },
+        "rios": {
+            "text": "Take a picture with Ms. Rios at 8:00 AM"
+        },
+        "pool1": {
+            "text": "Jump into a pool fully clothed"
+        },
+        "pool2": {
+            "text": "If team lands in pool at same time; single attempt, clothes must be dry"
+        },
+        "postIts": {
+            "text": "Put 6 post-its on a stranger’s back at a grocery store without them noticing",
+            "required": "video required"
+        },
+        "dunkin": {
+            "text": "Bring Dunkin to a Starbucks for twenty minutes",
+            "required": "no purchases at starbucks allowed"
+        },
+        "portaPotty": {
+            "text": "Team selfie in a porta potty that is not the one in lower lot"
+        },
+        "whoppers": {
+            "text": "Everyone orders whoppers at McDonald’s"
+        },
+        "policeOfficer": {
+            "text": "Picture with a police officer",
+            "required": "cannot be one on campus"
+        },
+        "disney1": {
+            "text": "Team singing a Disney song in a restaurant for at least 20 seconds",
+            "required": "video required"
+        },
+        "disney2": {
+            "text": "If you can get the waiter/waitress to sing along"
+        },
+        "tree": {
+            "text": "Get the entire team in a tree"
+        },
+        "fashionShow": {
+            "text": "Attend the fashion show"
+        },
+        "pyramid": {
+            "text": "Take a pyramid picture. If your team is 10-12 people, you can have two pyramids"
+        },
+        "pies": {
+            "text": "One half of the team pies the other half. If you have an odd number of teammates, one member pies his/herself"
+        },
+        "dyeHair": {
+            "text": "Dye entire team’s hair same color. Temporary/washable is acceptable"
+        },
+        "bostonMarket": {
+            "text": "Order every side and a whole chicken at Boston Market. Time restriction: Must complete in (17-amount of members) minutes",
+            "required": "video rquired"
+        },
+        "strangerPic": {
+            "text": "Get a stranger’s signature and picture with the stranger"
+        },
+        "bloomingdalePic": {
+            "text": "Take a picture from top of Bloomingdale’s parking garage (Riverside Mall)"
+        }
     },
     "individual":{
         "saranWrap": {
@@ -34,7 +126,7 @@
             "required": "video required"
         },
         "shaveHead": {
-            "text": "Shave head (M) / Cut Hair 4 in (F)",
+            "text": "Shave head (M) / Cut Hair 4 inches (F)",
             "points": 500
         },
         "shaveEyebrows": {
@@ -46,7 +138,7 @@
             "points": 75
         },
         "fastFood": {
-            "text": "Go to a fast food drive thru and pay in pennies",
+            "text": "Go to a fast food drive-through and pay in pennies",
             "points": 100
         },
         "iceCream": {
@@ -72,46 +164,45 @@
         }
     },
     "monthly":{
-            "October": {
-                "subtext": "Tourists",
-                "text": "Group members come to school dressed like tourists (camera, glasses, hats, etc)"
-            },
-            "November": {
-                "subtext": "Group",
-                "text": "Every member MUST be wearing the same shirt/outfit"
-            },
-            "December": {
-                "subtext": "Formal",
-                "text": "~But in reverse!~\nGirls wear suits and guys wear dresses"
-            },
-            "January": {
-                "subtext": "Beach",
-                "text": "Appropriate bathing suits/ beachwear\nGet a picture of squad in the snow with bathing suits on = 2x points",
-                "required": "Appropriate bathing suits/ beachwear",
-                "double": ["Best Selves™", "Tatusiowie", "Harverd Rejects", "Sen19rs in Predicaments"]
-            },
-            "February": {
-                "subtext": "Onesies and Piñatas",
-                "text": "Wear Onesies to school ~don’t forget the piñata~\nvideo required",
-                "required": "video required"
-            },
-            "March": {
-                "subtext": "All Black",
-                "text": "Wear all black: everything black (no other colors, neck to feet black)"
-            },
-            "April": {
-                "subtext": "Happy Holidays",
-                "text": "Make a freshman’s day by dressing up in santa hats and giving a random freshman a present\nvideo required",
-                "required": "video required"
-            },
-            "May": {
-                "subtext": "Halloween in May",
-                "text": "Costumes, decorations, trick or treating (the whole deal)"
-            },
-            "June": {
-                "subtext": "HSM",
-                "text": "Videotape squad singing a High School Musical song in the hall. Get other students involved = 2x points"
-            }
-
+        "October": {
+            "subtext": "Tourists",
+            "text": "Group members come to school dressed like tourists (camera, glasses, hats, etc)"
+        },
+        "November": {
+            "subtext": "Group",
+            "text": "Every member MUST be wearing the same shirt/outfit"
+        },
+        "December": {
+            "subtext": "Formal",
+            "text": "~But in reverse!~\nGirls wear suits and guys wear dresses"
+        },
+        "January": {
+            "subtext": "Beach",
+            "text": "Appropriate bathing suits/ beachwear\nGet a picture of squad in the snow with bathing suits on = 2x points",
+            "required": "Appropriate bathing suits/ beachwear",
+            "double": ["Best Selves™", "Tatusiowie", "Harverd Rejects", "Sen19rs in Predicaments"]
+        },
+        "February": {
+            "subtext": "Onesies and Piñatas",
+            "text": "Wear Onesies to school ~don’t forget the piñata~\nvideo required",
+            "required": "video required"
+        },
+        "March": {
+            "subtext": "All Black",
+            "text": "Wear all black: everything black (no other colors, neck to feet black)"
+        },
+        "April": {
+            "subtext": "Happy Holidays",
+            "text": "Make a freshman’s day by dressing up in santa hats and giving a random freshman a present\nvideo required",
+            "required": "video required"
+        },
+        "May": {
+            "subtext": "Halloween in May",
+            "text": "Costumes, decorations, trick or treating (the whole deal)"
+        },
+        "June": {
+            "subtext": "HSM",
+            "text": "Videotape squad singing a High School Musical song in the hall. Get other students involved = 2x points"
+        }
     }
 }

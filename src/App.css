@@ -42,6 +42,9 @@ body {
 .board{
     padding-bottom: 5em;
 }
+.custom-control-label{
+    font-size: 1.15em;
+}
 #resetPass {
     margin-bottom: 20px;
 }
