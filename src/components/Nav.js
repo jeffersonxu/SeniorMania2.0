@@ -6,7 +6,7 @@ const Nav = (props) => {
     return(
         <div>
             <h1 className="header">Senior Mania</h1>
-            <button id="btnLogout" onClick={() => app.auth().signOut()} className="btn btn-dark hide">Log Out</button>
+            <button id="btnLogout" onClick={() => app.auth().signOut()} className="btn btn-dark">Log Out</button>
             <nav style={{marginBottom: '2em'}} className="navbar navbar-expand-lg navbar-light bg-light">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
