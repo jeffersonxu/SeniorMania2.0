@@ -20,7 +20,7 @@ function Individual(props){
     return(
         <div className="main">
             <h3>Individual Challenges</h3>
-            <div className="row">
+            <div className="indiv row">
                 { list }
             </div>
         </div>

@@ -32,7 +32,7 @@ const Login = ({ history }) => {
         <h1 className="header">Senior Mania</h1>
 
         <div className="alert alert-warning" role="alert">
-          <p>Senior Mania for the ClassName of 2019 is over :(</p>
+          <p>Senior Mania for the Class of 2019 is over :(</p>
           <p>With over 150 and 16 teams students registered, I am happy to have seen the best Senior Mania participation in all our school's history!</p>
           <p>For those curious how the site looks like, feel free to login using <b>grazwe19@bergen.org</b> as the email and <b>mitochondria123</b>. Don't worry about breaking anything, the database write permissions are all set to false!</p>
         </div>

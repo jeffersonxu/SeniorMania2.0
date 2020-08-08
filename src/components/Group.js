@@ -39,7 +39,7 @@ function Group(props){
     return(
         <div className="main">
             <h3>Group Challenges</h3>
-            <div className="row">
+            <div className="group row">
                 { list }
             </div>
         </div>
