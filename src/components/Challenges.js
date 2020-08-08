@@ -13,9 +13,11 @@ function Challenges(props){
         <div className="main">
             <Nav data={props.location.state.data}/>
             <h2>Challenges</h2>
-            <Group data={team.challenges.group} text={text.group} />
-            <Individual data={team.challenges.individual} text={text.individual} />
-            <Monthly name={team.name} data={team.challenges.monthly} text={text.monthly} />
+            <div className="challenges">
+                <Group data={team.challenges.group} text={text.group} />
+                <Individual data={team.challenges.individual} text={text.individual} />
+                <Monthly name={team.name} data={team.challenges.monthly} text={text.monthly} />
+            </div>
         </div>
     )
 }

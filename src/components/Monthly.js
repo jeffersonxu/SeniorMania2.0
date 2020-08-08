@@ -26,7 +26,7 @@ function Monthly(props){
         <div className="main">
             <h3>Monthly Challenges</h3>
             <p className="red">500 points each</p>
-            <div className="row">
+            <div className="monthly row">
                 { Months }
             </div>
         </div>

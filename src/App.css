@@ -8,8 +8,11 @@ body {
 #login {
     padding-top: 7em;
 }
+.challenges {
+    padding-bottom: 5em;
+}
 .main {
-    padding: 2.5em 0;
+    padding: 1em 0;
 }
 .main p span,
 .red,
@@ -43,7 +46,7 @@ body {
     padding-bottom: 5em;
 }
 .custom-control-label{
-    font-size: 1.15em;
+    font-size: 1.1em;
 }
 #resetPass {
     margin-bottom: 20px;
